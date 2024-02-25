@@ -1,0 +1,15 @@
+Router>en
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#hostname B
+B(config)#interf
+B(config)#interface Fas
+B(config)#interface FastEthernet 2/0
+B(config-if)#ip ad
+B(config-if)#ip address 1.1.64.1 255.255.240.0
+B(config-if)#no shut
+
+B(config-if)#
+%LINK-5-CHANGED: Interface FastEthernet2/0, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet2/0, changed state to up

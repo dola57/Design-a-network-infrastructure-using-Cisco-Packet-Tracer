@@ -1,0 +1,12 @@
+A#en
+A#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+A(config)#int s1/0
+A(config-if)#ip add
+A(config-if)#ip address 1.1.85.50 255.255.255.252
+A(config-if)#clock rate 64000
+This command applies only to DCE interfaces
+A(config-if)#no shut
+
+A(config-if)#
+%LINK-5-CHANGED: Interface Serial1/0, changed state to up

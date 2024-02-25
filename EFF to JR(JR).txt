@@ -1,0 +1,11 @@
+F>en
+F#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+F(config)#int s1/0
+F(config-if)#ip add
+F(config-if)#ip address 1.1.85.70 255.255.255.252
+F(config-if)#clock rate 64000
+F(config-if)#no shut
+
+F(config-if)#
+%LINK-5-CHANGED: Interface Serial1/0, changed state to up

@@ -1,0 +1,11 @@
+E(config-if)#exit
+E(config)#int s1/0
+E(config-if)#ip address 1.1.85.45 255.255.255.252
+E(config-if)#clock rate 64000
+E(config-if)#no shut
+
+%LINK-5-CHANGED: Interface Serial1/0, changed state to down
+E(config-if)#
+%LINK-5-CHANGED: Interface Serial1/0, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/0, changed state to up
